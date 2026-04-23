@@ -1,0 +1,951 @@
+[
+    {
+        "name":  "Invoice",
+        "rules":  [
+                      {
+                          "term":  "invoice",
+                          "weight":  4.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "tax invoice",
+                          "weight":  4.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "invoice number",
+                          "weight":  3.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "invoice no",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "invoice date",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "bill to",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "ship to",
+                          "weight":  2.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "customer number",
+                          "weight":  2.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "account number",
+                          "weight":  1.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "due date",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "payment terms",
+                          "weight":  2.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "purchase order",
+                          "weight":  2.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "po number",
+                          "weight":  2.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "line item",
+                          "weight":  1.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "unit price",
+                          "weight":  2.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "quantity",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "subtotal",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "discount",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "tax",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Weak"
+                      },
+                      {
+                          "term":  "vat",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Weak"
+                      },
+                      {
+                          "term":  "sales tax",
+                          "weight":  2.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "amount due",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "total due",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "total amount",
+                          "weight":  2.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "balance due",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "remit to",
+                          "weight":  2.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "payment reference",
+                          "weight":  2.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "invoice #",
+                          "weight":  3.2,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "tax total",
+                          "weight":  2.4,
+                          "matchMode":  "Phrase",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "billing address",
+                          "weight":  2.2,
+                          "matchMode":  "Phrase",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "shipping address",
+                          "weight":  2.2,
+                          "matchMode":  "Phrase",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "thank you for your business",
+                          "weight":  2.8,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      }
+                  ]
+    },
+    {
+        "name":  "Contract",
+        "rules":  [
+                      {
+                          "term":  "contract",
+                          "weight":  4.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "agreement",
+                          "weight":  3.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "service agreement",
+                          "weight":  3.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "this agreement",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "parties",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "party",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Weak"
+                      },
+                      {
+                          "term":  "first party",
+                          "weight":  2.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "second party",
+                          "weight":  2.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "terms and conditions",
+                          "weight":  4.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "whereas",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "hereby",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "hereinafter",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "effective date",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "term of this agreement",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "governing law",
+                          "weight":  3.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "jurisdiction",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "confidentiality",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "non-disclosure",
+                          "weight":  2.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "indemnification",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "liability",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "breach",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "termination",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "notice",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "entire agreement",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "amendment",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "assignment",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "signatory",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "signature",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "authorized representative",
+                          "weight":  3.2,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "performance period",
+                          "weight":  3,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "delivery of services",
+                          "weight":  3,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "statement of service",
+                          "weight":  2.8,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "schedule i",
+                          "weight":  2.2,
+                          "matchMode":  "Phrase",
+                          "strength":  "Normal"
+                      }
+                  ]
+    },
+    {
+        "name":  "Resume",
+        "rules":  [
+                      {
+                          "term":  "resume",
+                          "weight":  4.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "curriculum vitae",
+                          "weight":  4.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "cv",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Weak"
+                      },
+                      {
+                          "term":  "professional summary",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "summary",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "work experience",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "professional experience",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "employment history",
+                          "weight":  3.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "experience",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "education",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "skills",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "technical skills",
+                          "weight":  2.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "core competencies",
+                          "weight":  2.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "qualifications",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "certifications",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "projects",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "achievements",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "languages",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "references",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "linkedin",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "phone",
+                          "weight":  1.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Weak"
+                      },
+                      {
+                          "term":  "email",
+                          "weight":  1.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Weak"
+                      },
+                      {
+                          "term":  "data analyst",
+                          "weight":  3.2,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "business analyst",
+                          "weight":  3.2,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "power bi",
+                          "weight":  2.6,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "sql server",
+                          "weight":  2.6,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "pandas",
+                          "weight":  2,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      }
+                  ]
+    },
+    {
+        "name":  "Report",
+        "rules":  [
+                      {
+                          "term":  "report",
+                          "weight":  4.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "executive summary",
+                          "weight":  3.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "table of contents",
+                          "weight":  2.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "introduction",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "background",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "objective",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "scope",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Weak"
+                      },
+                      {
+                          "term":  "methodology",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "data collection",
+                          "weight":  2.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "analysis",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "results",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "findings",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "discussion",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "observation",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "recommendation",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "conclusion",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "appendix",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "appendices",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "references",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "bibliography",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "test report",
+                          "weight":  3.8,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "revision history",
+                          "weight":  3,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "terminology and definitions",
+                          "weight":  3.2,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "abbreviations and notations",
+                          "weight":  3.2,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "approved by",
+                          "weight":  2,
+                          "matchMode":  "Phrase",
+                          "strength":  "Normal"
+                      }
+                  ]
+    },
+    {
+        "name":  "Financial",
+        "rules":  [
+                      {
+                          "term":  "financial statement",
+                          "weight":  4.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "financial report",
+                          "weight":  4.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "balance sheet",
+                          "weight":  4.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "income statement",
+                          "weight":  4.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "profit and loss",
+                          "weight":  4.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "p\u0026l",
+                          "weight":  3.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Weak"
+                      },
+                      {
+                          "term":  "cash flow",
+                          "weight":  4.0,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "statement of cash flows",
+                          "weight":  4.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "assets",
+                          "weight":  3.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "liabilities",
+                          "weight":  3.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "equity",
+                          "weight":  3.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "shareholder equity",
+                          "weight":  3.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "revenue",
+                          "weight":  3.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "net income",
+                          "weight":  3.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "gross profit",
+                          "weight":  3.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "operating income",
+                          "weight":  3.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "ebitda",
+                          "weight":  3.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "expenses",
+                          "weight":  3.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "operating expenses",
+                          "weight":  3.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "cost of goods sold",
+                          "weight":  3.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "cogs",
+                          "weight":  3.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Weak"
+                      },
+                      {
+                          "term":  "fiscal year",
+                          "weight":  2.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "quarterly",
+                          "weight":  2.0,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "annual report",
+                          "weight":  3.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "auditor",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "audit",
+                          "weight":  2.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Weak"
+                      },
+                      {
+                          "term":  "notes to the financial statements",
+                          "weight":  3.5,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "currency",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "usd",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Weak"
+                      },
+                      {
+                          "term":  "eur",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Weak"
+                      },
+                      {
+                          "term":  "amount",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "total",
+                          "weight":  1.5,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Weak"
+                      },
+                      {
+                          "term":  "report and accounts",
+                          "weight":  3.6,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "financial performance",
+                          "weight":  3.6,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "financial position",
+                          "weight":  3.6,
+                          "matchMode":  "Phrase",
+                          "strength":  "Strong"
+                      },
+                      {
+                          "term":  "not-for-profit",
+                          "weight":  2.2,
+                          "matchMode":  "Phrase",
+                          "strength":  "Normal"
+                      },
+                      {
+                          "term":  "stewardship",
+                          "weight":  2,
+                          "matchMode":  "WholeWord",
+                          "strength":  "Normal"
+                      }
+                  ]
+    }
+]
